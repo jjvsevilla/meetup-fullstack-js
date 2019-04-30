@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql -x node src/graphql-server.js",
+    "deploy": "prisma deploy --env-file variables.env"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "graphql": "^14.2.1",
+    "graphql-cli": "^3.0.11",
+    "graphql-yoga": "^1.17.4",
+    "nodemon": "^1.18.11",
+    "prisma": "^1.31.2",
+    "prisma-binding": "^2.3.10"
+  }
+}
