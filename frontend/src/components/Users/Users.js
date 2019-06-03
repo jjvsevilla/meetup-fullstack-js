@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import { Query } from 'react-apollo';
 import GET_USERS from './../../graphql/query/GET_USERS';
 

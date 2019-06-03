@@ -13,6 +13,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div className="container">
+        <h2 className="app-title">React + Apollo Client + GraphQL Yoga + Prisma</h2>
         <div className="half-container">
           <CreateUser />
         </div>
